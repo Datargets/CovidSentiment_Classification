@@ -84,7 +84,8 @@ evaluate_models.py: Evaluates models using sklearn metrics
 
 zero_shot.py: Performs zero-shot sentiment classification
 
-
+📌 Model Architecture
+![Model Architecture](images/architecture.png)
 ⚙️ Requirements
 transformers==4.40.0
 scikit-learn
@@ -93,3 +94,13 @@ pandas
 numpy
 tqdm
 
+📉 Limitations
+Limited sample size: Only 7,500 tweets used for traditional training due to computational cost.
+📌 Conclusions
+Transformer-based sentence embeddings provide strong semantic representations.
+
+Combining these embeddings with classical ML models like SVM and Logistic Regression results in highly competitive sentiment classification with low computational cost.
+
+DistilBERT + Logistic Regression yielded the best accuracy/speed trade-off.
+
+Zero-shot methods are not yet reliable for nuanced sentiment classification unless properly fine-tuned or based on NLI.
