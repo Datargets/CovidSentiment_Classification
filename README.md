@@ -85,7 +85,8 @@ evaluate_models.py: Evaluates models using sklearn metrics
 zero_shot.py: Performs zero-shot sentiment classification
 
 📌 Model Architecture
-![Model Architecture](images/architecture.png)
+![Model Architecture](Image/Capture.png)
+
 ⚙️ Requirements
 transformers==4.40.0
 scikit-learn
