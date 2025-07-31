@@ -88,12 +88,12 @@ zero_shot.py: Performs zero-shot sentiment classification
 ![Model Architecture](Image/Capture.png)
 
 ⚙️ Requirements
-transformers==4.40.0
-scikit-learn
-torch>=2.0
-pandas
-numpy
-tqdm
+
+transformers==4.40.0                                                                     
+scikit-learn                                                            
+torch>=2.0                                
+pandas                                             
+numpy                                  
 
 📉 Limitations
 Limited sample size: Only 7,500 tweets used for traditional training due to computational cost.
