@@ -10,7 +10,7 @@ Time Period: April to June 2020
 
 Labels: Positive, Neutral, Negative
 
-Sample Size: 7,500 tweets (2,500 per sentiment class using stratified sampling)
+Sample Size: 7,500 tweets (2,500 per sentiment class)
 
 Preprocessing Steps:
 
