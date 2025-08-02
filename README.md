@@ -4,39 +4,34 @@ Sentiment Classification of COVID-19 Tweets Using Transformer Embeddings and Cla
 This project presents a hybrid sentiment analysis framework that integrates pretrained transformer-based language models (BERT, DistilBERT, XLM-RoBERTa) with traditional machine learning classifiers (Support Vector Machine and Logistic Regression) to classify sentiment in COVID-19-related tweets. Additionally, it evaluates zero-shot learning performance using Hugging Face pipelines for task-agnostic inference.
 📊 Dataset Information
 
-    Source: Kaggle COVID-19 Twitter Dataset
-    ↳ Dataset Link
+Source: Kaggle COVID-19 Twitter Dataset
 
-    Time Period: April to June 2020
+Time Period: April to June 2020
 
-    Labels: Positive, Neutral, Negative
+Labels: Positive, Neutral, Negative
 
-    Sample Size: 7,500 tweets (2,500 per sentiment class using stratified sampling)
+Sample Size: 7,500 tweets (2,500 per sentiment class using stratified sampling)
 
-    Preprocessing Steps:
+Preprocessing Steps:
 
-        Lowercasing all text
+  Lowercasing all text
 
-        Removing URLs, hashtags, mentions, digits, and punctuation
+  Removing URLs, hashtags, mentions, digits, and punctuation
 
-        Tokenization
+  Tokenization
 
-        Stopword removal
+  Stopword removal
 
 🧠 Model Architecture Overview
 
-📌 Insert your model architecture diagram or screenshots here.
-
-    📁 Suggested File: Capture.PNG
-    📍 Position: Right here under the "Model Architecture Overview" section.
+   ![Model Architecture](images/Figure1.PNG)
 
 
-Model Architecture
 🧾 Code Information
 
-    Language: Python 3.10+
+   Language: Python 3.10+
 
-    Key Notebooks:
+   Key Notebooks:
 
         Bert_Covid_Sentiment_Hybrid.ipynb: BERT + SVM/Logistic Regression
 
@@ -149,7 +144,7 @@ View Results:
 📚 Citations
 
     
-    •	Rezaei, Z., Samghabadi, S. S., & Banad, Y. M. (2025). A Scalable Hybrid Framework for Sentiment Analysis of COVID-19 Tweets Using Transformer Embeddings and Lightweight Classifiers. (Unpublished manuscript).
+    •	Rezaei, Z., Safi Samghabadi, S., & Banad, Y. M. (2025). A Scalable Hybrid Framework for Sentiment Analysis of COVID-19 Tweets Using Transformer Embeddings and Lightweight Classifiers. (Unpublished manuscript).
     •	Dataset: Chakraborty, A. K. (2020). COVID-19 Twitter Dataset. Kaggle. Available at: https://www.kaggle.com/datasets/arunavakrchakraborty/covid19-twitter-dataset.
 
 
