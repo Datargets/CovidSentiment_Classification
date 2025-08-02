@@ -144,8 +144,8 @@ View Results:
 📚 Citations
 
     
-    •	Rezaei, Z., Safi Samghabadi, S., & Banad, Y. M. (2025). A Scalable Hybrid Framework for Sentiment Analysis of COVID-19 Tweets Using Transformer Embeddings and Lightweight Classifiers. (Unpublished manuscript).
-    •	Dataset: Chakraborty, A. K. (2020). COVID-19 Twitter Dataset. Kaggle. Available at: https://www.kaggle.com/datasets/arunavakrchakraborty/covid19-twitter-dataset.
+  •	Rezaei, Z., Safi Samghabadi, S., & Banad, Y. M. (2025). A Scalable Hybrid Framework for Sentiment Analysis of COVID-19 Tweets Using Transformer Embeddings and Lightweight Classifiers. (Unpublished manuscript).
+  •	Dataset: Chakraborty, A. K. (2020). COVID-19 Twitter Dataset. Kaggle. Available at: https://www.kaggle.com/datasets/arunavakrchakraborty/covid19-twitter-dataset.
 
 
 📜 License & Contributions
@@ -157,22 +157,22 @@ View Results:
 
 ✅ Conclusions
 
-    The hybrid method combining frozen transformer embeddings with classical ML models balances semantic power and efficiency.
+  The hybrid method combining frozen transformer embeddings with classical ML models balances semantic power and efficiency.
 
-    DistilBERT + Logistic Regression performs best for speed/accuracy trade-off:
+  DistilBERT + Logistic Regression performs best for speed/accuracy trade-off:
 
-        Accuracy: 0.64, F1-score: 0.62
+  Accuracy: 0.64, F1-score: 0.62
 
-    Zero-shot performance was notably lower (Accuracy: 0.21–0.33), affirming the importance of task-specific adaptation.
+  Zero-shot performance was notably lower (Accuracy: 0.21–0.33), affirming the importance of task-specific adaptation.
 
 ⚠️ Limitations
 
-    Small dataset (7,500 tweets) may limit generalization.
+  Small dataset (7,500 tweets) may limit generalization.
 
-    Only English tweets considered—no multilingual evaluation.
+  Only English tweets considered—no multilingual evaluation.
 
-    Static time range (April–June 2020) may miss later developments.
+  Static time range (April–June 2020) may miss later developments.
 
-    Potential Twitter bias (e.g., bots, demographic skew).
+  Potential Twitter bias (e.g., bots, demographic skew).
 
-    No fine-tuning of transformers—domain adaptation might improve results.
+  No fine-tuning of transformers—domain adaptation might improve results.
