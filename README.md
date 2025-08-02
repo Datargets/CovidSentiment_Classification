@@ -2,6 +2,7 @@
 📌 Description
 
 This project presents a hybrid sentiment analysis framework that integrates pretrained transformer-based language models (BERT, DistilBERT, XLM-RoBERTa) with traditional machine learning classifiers (Support Vector Machine and Logistic Regression) to classify sentiment in COVID-19-related tweets. Additionally, it evaluates zero-shot learning performance using Hugging Face pipelines for task-agnostic inference.
+
 📊 Dataset Information
 
 Source: Kaggle COVID-19 Twitter Dataset
