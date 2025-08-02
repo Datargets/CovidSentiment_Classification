@@ -1,4 +1,4 @@
-Sentiment Classification of COVID-19 Tweets Using Transformer Embeddings and Classical Machine Learning Models
+## Sentiment Classification of COVID-19 Tweets Using Transformer Embeddings and Classical Machine Learning Models
 📌 Description
 
 This project presents a hybrid sentiment analysis framework that integrates pretrained transformer-based language models (BERT, DistilBERT, XLM-RoBERTa) with traditional machine learning classifiers (Support Vector Machine and Logistic Regression) to classify sentiment in COVID-19-related tweets. Additionally, it evaluates zero-shot learning performance using Hugging Face pipelines for task-agnostic inference.
@@ -24,7 +24,7 @@ Preprocessing Steps:
 
 🧠 Model Architecture Overview
 
-   ![Model Architecture](images/Figure1.PNG)
+   ![Model Architecture](images/Figure1.png)
 
 
 🧾 Code Information
