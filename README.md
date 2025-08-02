@@ -33,32 +33,32 @@ Preprocessing Steps:
 
    Key Notebooks:
 
-        Bert_Covid_Sentiment_Hybrid.ipynb: BERT + SVM/Logistic Regression
+   Bert_Covid_Sentiment_Hybrid.ipynb: BERT + SVM/Logistic Regression
 
-        Covid_Sentiment_Bert.ipynb: BERT embeddings
+   Covid_Sentiment_Bert.ipynb: BERT embeddings
 
-        Covid_Sentiment_distilBert.ipynb: DistilBERT embeddings
+   Covid_Sentiment_distilBert.ipynb: DistilBERT embeddings
 
-        DistilBert_Covid_Sentiment_Hybrid.ipynb: DistilBERT + SVM/Logistic Regression
+   DistilBert_Covid_Sentiment_Hybrid.ipynb: DistilBERT + SVM/Logistic Regression
 
-        Covid_Sentiment_Roberta.ipynb: XLM-RoBERTa embeddings
+   Covid_Sentiment_Roberta.ipynb: XLM-RoBERTa embeddings
 
-        RoBERTACovid_Sentiment_Hybrid.ipynb: XLM-RoBERTa + SVM/Logistic Regression
+   RoBERTACovid_Sentiment_Hybrid.ipynb: XLM-RoBERTa + SVM/Logistic Regression
 
-        README.md: Project description and usage instructions
+   README.md: Project description and usage instructions
 
     Repository: https://github.com/Datargets/CovidSentiment_Classification
 
 💻 Usage Instructions
 
-    Clone the repository:
+  Clone the repository:
 
-git clone https://github.com/Datargets/CovidSentiment_Classification.git
-cd CovidSentiment_Classification
+    git clone https://github.com/Datargets/CovidSentiment_Classification.git
+    cd CovidSentiment_Classification
 
 Install dependencies:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 Download and place the dataset:
 
@@ -68,7 +68,7 @@ Download and place the dataset:
 
 Run analysis notebooks:
 
-    Use Jupyter to open .ipynb files and execute them.
+    Use Jupyter/Google Colab to open .ipynb files and execute them.
 
 View Results:
 
