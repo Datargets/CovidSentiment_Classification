@@ -24,7 +24,7 @@ Preprocessing Steps:
 
 🧠 Model Architecture Overview
 
-   ![Model Architecture](images/Figure1.png)
+   ![Model Architecture](Image/Figure1.png)
 
 
 🧾 Code Information
