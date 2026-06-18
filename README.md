@@ -145,7 +145,12 @@ View Results:
 📚 Citations
 
     
-  •	Rezaei, Z., Safi Samghabadi, S., & Banad, Y. M. (2025). A Scalable Hybrid Framework for Sentiment Analysis of COVID-19 Tweets Using Transformer Embeddings and Lightweight Classifiers. (Unpublished manuscript).
+ @article{ title={A scalable hybrid framework for sentiment analysis of COVID-19 tweets using transformer embeddings and lightweight classifiers},
+ journal={PeerJ Computer Science},
+ volume={12}, 
+ pages={e3852}, 
+ year={2026}, 
+ doi={10.7717/peerj-cs.3852} }
   •	Dataset: Chakraborty, A. K. (2020). COVID-19 Twitter Dataset. Kaggle. Available at: https://www.kaggle.com/datasets/arunavakrchakraborty/covid19-twitter-dataset.
 
 
